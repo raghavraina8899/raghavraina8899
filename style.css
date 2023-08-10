@@ -1,0 +1,53 @@
+
+
+
+
+
+
+#header{
+   background:antiquewhite;
+   border: whitesmoke 2px;
+   padding: 10px;
+   text-align: center;
+}
+
+body{
+    background: #000;
+    color: antiquewhite;
+}
+
+h1 {
+    color: red;
+    padding: 20px;
+}
+
+p {
+    color: whitesmoke;
+    padding: 10px;
+    text-justify: distribute ;
+}
+
+#form-link{
+    color: chocolate;
+    background:wheat;
+    text-align: center;
+    width: 100px;
+}
+
+#link-1{
+    background:wheat;
+    text-align: center;
+    width: 100px;
+}
+
+#link-2{
+    background:rgb(235, 180, 79);
+    text-align: center;
+    width: 100px;
+}
+
+#link-3{
+    background:wheat;
+    text-align: center;
+    width: 100px;
+}
