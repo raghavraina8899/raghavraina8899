@@ -51,3 +51,24 @@ p {
     text-align: center;
     width: 100px;
 }
+
+#form-heading{
+    
+    
+    
+    text-align: center;
+    
+}
+
+#label{
+    background-image: image(/C:\Users\ACER\Pictures\Acer);
+    color:rgb(30, 17, 0);
+    background:rgb(160, 161, 165);
+    text-align: center;
+}
+
+.text-box{
+    margin:center;
+    text-align: center ;
+    border: red;
+}

@@ -8,55 +8,62 @@
 </head>
 <body>
 
-    <h1>Form</h1>
-    
+    <div id="form-heading">
+        <h1 style="color: teal;">Form</h1>
+    </div>
+
     <form action="process.php">
 
 <!-- Label Name -->
-
+<div id="label">
     <label for="name">Name</label>   
     
     <!-- Name Input -->
-
+<div class="text-box">
     <input type="text" id="name">
 
     <br><br>
-
+</div>
     <!-- Label & Input Tags for email -->
 
     <label for="email">Email</label>
-
+<div class="text-box">
     <input type="email" name="email" id="email">
 
     <br><br>
-
+</div>
     <label for="gender">Gender</label>
-
-    <br><br>
-
+<br><br>
     <input type="radio" name="gender" id="gender">Male<br><br>
     <input type="radio" name="gender" id="gender">Female<br><br>
     <input type="radio" name="gender" id="gender">Others<br><br>
 
     <label for="age">Age</label>
+<div class="text-box">
     <input type="number" name="age" id="age">
 
     <br><br>
-
+</div>
     <label for="dob">D.O.B</label>
+<div class="text-box"> 
     <input type="date" name="dob" id="dob">
 
     <br><br>
-
+</div>
     <label for="password">Password</label>
+<div class="text-box">
     <input type="password" name="password" id="password">
     <br><br>
-
+</div>
     <label for="password">Confirm-Password</label>
+<div class="text-box">
     <input type="password" name="password" id="password">
     <br><br>
-
+</div>
+<div class="text-box">
     <input type="button" value="Submit">
+</div>
+</div> 
     </form>
     
 </body>
